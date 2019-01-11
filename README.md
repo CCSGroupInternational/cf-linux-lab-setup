@@ -10,8 +10,8 @@ This project was created because at this time CFDev does not run on Linux (cfdev
 ## System Requirements
 
 - Intel Linux system (with root privileges using sudo)
-- 8GB RAM
-- 80 Free Disk space
+- RAM: 8 GB
+- Disk: 80 GB
 
 It was developed/tested using Manjaro Linux, but it should run on any other modern distribution.
 
