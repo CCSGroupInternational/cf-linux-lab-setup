@@ -36,6 +36,9 @@ cd CCSGroupInternational
 
 The following scripts will create 2 VBoxes, the first is just connected during the staging, the VM that will run the BOSH(lite) director and the CF components.
 
+WARNING: Depending on your bandwidth, disk and CPU the deployment may take from 30 mins to 2 hours. It will be much faster on re-deployments as most downloaded and compiled artifacts are cached.
+
+
 ```bash
 scripts/bosh-lite-director-install.sh   #  Install BOSH(lite) director into a VirtualBox VM
 scripts/cf-deployment-lite-install.sh   #  Install CF into the BOSH lite VM
